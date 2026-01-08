@@ -261,4 +261,143 @@ ul li a {
     padding-top: 30px;
 }
 
+.hide {
+    display: none;
+}
+
 /* the code section is closed  */
+
+/* responsive  */
+
+@media screen and (max-width:1200px){
+    .note-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+@media screen and (max-width:1024px){
+    ul {
+        display: none;
+    }
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    #hero-contant {
+    padding-top: 100px;
+}
+#hero-contant  h1 {
+    font-size: 50px;
+
+}
+/* .note-parent {
+    display: flex;
+    flex-direction: column;
+} */
+}
+.brain-parent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.brain-img img {
+    width: 500px;
+}
+.brain-contant {
+    text-align: center;
+}
+.brain-list {
+    padding-left: 50px;
+}
+@media screen and (max-width:690px){
+      .container {
+        width: 98%;
+        margin: 0 auto;
+    }
+    #nav-bar img {
+    width: 100px;
+}
+.nav-btn button {
+    background-color: #469165;
+    font-weight: 400;
+    padding: 8px 12px;
+   
+}
+#hero-contant  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+.btn {
+    display: none;
+}
+.hero-btn button {
+    margin-top: 20px;
+}
+.note-parent {
+    display: flex;
+    flex-direction: column;
+}
+.note-box {
+    width: 100%;
+}
+.note-heading h2 {
+    font-size: 26px;
+}
+.note-heading p {
+    font-size: 15px;
+    padding: 0px 30px;
+}
+.brain-img img {
+    width: 100%;
+}
+.brain-contant h2 {
+    font-size: 24px;
+}
+.brain-list {
+    padding-left: 10px;
+}
+.brain-list p {
+    font-size:12px;
+}
+.brain-list {
+    gap: 4px;
+}
+#brain-p {
+    font-size: 12px;
+    padding: 0px 30px;
+}
+#brain {
+    margin-bottom: 40px;
+}
+#ready {
+    background-color: #F7F6F2;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+#foter-parent{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.foter-img img {
+    width: 90px;
+    margin-left: 10px;
+}
+.foter-icon {
+    margin-right: 20px;
+}
+.foter-icon h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#copy-right {
+    border-top: 1px solid #E5E7EB;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+}
